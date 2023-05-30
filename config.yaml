@@ -1,0 +1,15 @@
+log:
+  level: "debug"
+  encoding: "console"
+  outputPaths: ["stdout"]
+  errorOutputPaths: ["stderr"]
+  encoderConfig:
+    messageKey: "message"
+    levelKey: "level"
+    levelEncoder: "lowercase"
+    timeKey: "time"
+    timeEncoder: "iso8601"
+    callerKey: "caller"
+    callerEncoder: "short"
+    encoderName: "full"
+    nameKey: "custom"
